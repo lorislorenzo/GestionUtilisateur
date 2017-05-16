@@ -10,7 +10,7 @@ import dao.IUser;
 import dao.UserDaoImplementation;
 import metier.User;
 @SuppressWarnings("serial")
-public class ControllerServlet extends HttpServlet{
+public class ControllerServlet extends HttpServlet {
 	private IUser metier ;
 	
 	@Override

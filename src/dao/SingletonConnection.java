@@ -8,7 +8,7 @@ public class SingletonConnection {
 	static{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver") ;
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useLegacyDatetimeCode=false&serverTimezone=America/New_York", "root", "dadfba16") ;
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useLegacyDatetimeCode=false&serverTimezone=America/New_York", "root", "") ;
 		} catch (Exception e) {
 			
 			e.printStackTrace();

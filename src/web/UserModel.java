@@ -24,6 +24,5 @@ public class UserModel {
 	public String toString() {
 		return "UserModel [motCle=" + motCle + ", user=" + user + "]";
 	}
-	
 
 }

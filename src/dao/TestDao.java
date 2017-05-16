@@ -11,7 +11,7 @@ public class TestDao {
 		User u1 = dao.save(new User("loris","lorenzo", "loris.lorenzo", "azerty") ) ;
 		System.out.println(u1.getPassword());
 		List <User> us = dao.chercherUser("%loris%") ;
-		for(User user :us ){
+		for(User user : us ){
 			System.out.println(user.toString());
 		}
 		
